@@ -1,0 +1,46 @@
+
+#btn {
+    background-color: skyblue;
+}
+h1{
+    background-color: aquamarine;
+    text-align: center;
+
+}
+/* .crea {
+    text-align: center;
+    background-color: chartreuse;
+    border-width: 59px;
+    bo
+} */
+.datos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20px auto 50px auto 20px ;
+    /* display: flex */
+    
+    
+
+
+}
+ .box1{
+    /* background-color: rgb(153, 44, 44); */
+    
+}
+.box2{
+    /* background-color: rgb(63, 56, 60); */
+    padding: 30px;
+   
+    
+}
+
+.box3{
+    /* background-color: rgb(31, 209, 25); */
+    
+.caja4{
+    background-color: cyan;
+
+    padding: 30px;
+   
+    
+}
