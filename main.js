@@ -69,12 +69,14 @@ function obtenerUnicornios (){
         arrayUnicornios.forEach((element) => {
             const li= document.createElement('li') //Esto crea un elemento li
             const liContent = `
+            <div class="card">
             <h3>${element.name}</h3>
             <img class="foto" src=${element.image} width="300">
             <h3>${element.power}</h3> 
             <h3>${element.age}</h3>
             <button id="borrar" onclick="eliminarUnicornio('${element._id}')">Eliminar</button>
             <button class="modificar" onclick="modificarUnicornio('${element._id}')">Modificar</button>
+            </div>
         `
         li.addEventListener('click', () => {console.log(element._id)});
         li.id = element._id;

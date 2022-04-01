@@ -47,13 +47,32 @@ h1{
 #lista{
     display: grid;
     grid-template-columns: repeat(3, auto);
+    
+    }
+.card{
+    /* border-style: groove; */
+    text-align: center;   
+    padding: 5%;
 }
-.foto{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
+
+#borrar{
+    background-color: rgb(224, 146, 30);
+    color: white;
+    border-radius: 5px;
+    
+}
+.modificar{
+    background-color: rgb(104, 30, 224);
+    color: white;
+    border-radius: 5px;
+}
+    .foto{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    /* margin: auto; */
+    /* display: block; */
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
